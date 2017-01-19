@@ -7,3 +7,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+* {
+  /* Tell browser to apply padding/margin without affecting the calculated width/height values */
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
+}
