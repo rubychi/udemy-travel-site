@@ -1,3 +1,5 @@
+/* Question: can we use sprites for types of images other than svg? (ex. jpg, png etc.) */
+
 var gulp = require('gulp'),
 svgSprite = require('gulp-svg-sprite'),
 rename = require('gulp-rename');
