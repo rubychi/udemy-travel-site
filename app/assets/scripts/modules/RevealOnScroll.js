@@ -19,6 +19,7 @@ class RevealOnScroll {
     this.itemsToReveal.each(function() {
       var currentItem = this;
       new Waypoint({
+        // The trigger element
         element: currentItem,
         handler: function() {
           $(currentItem).addClass("reveal-item--is-visible");
