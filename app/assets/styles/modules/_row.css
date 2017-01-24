@@ -70,8 +70,8 @@
       width: 63%;
     }
   }
-  /* Begin Equal Height Rules */
-  &--equal-height-at-medium {
+  /* Begin Equal Height Rules: flexbox works beatifully for the 96% of the browsers */
+  .flexbox &--equal-height-at-medium {
     @mixin atMedium {
       display: flex;
     }
@@ -80,7 +80,7 @@
       display: flex;
     }
   }
-  &--equal-height-at-large {
+  .flexbox &--equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }

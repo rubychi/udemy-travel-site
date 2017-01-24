@@ -11238,7 +11238,7 @@
 	  _createClass(StickyHeader, [{
 	    key: 'refreshWaypoints',
 	    value: function refreshWaypoints() {
-	      this.lazyImages.load(function () {
+	      this.lazyImages.on('load', function () {
 	        // Waypoint object exists in the web browser's global window's scope so we don't need to apply it to the RevealOnScroll.js
 	        Waypoint.refreshAll();
 	      });
