@@ -11226,10 +11226,12 @@
 
 	    this.lazyImages = (0, _jquery2.default)(".lazyload");
 	    this.siteHeader = (0, _jquery2.default)(".site-header");
+	    this.arrowUp = (0, _jquery2.default)(".arrow-up");
 	    this.headerTriggerElement = (0, _jquery2.default)(".large-hero__title");
 	    this.createHeaderWaypoint();
 	    this.pageSections = (0, _jquery2.default)(".page-section");
 	    this.headerLinks = (0, _jquery2.default)(".primary-nav a");
+	    this.arrowUpLinks = (0, _jquery2.default)(".arrow-up a");
 	    this.createPageSectionWaypoints();
 	    this.addSmoothScrolling();
 	    this.refreshWaypoints();
@@ -11247,6 +11249,7 @@
 	    key: 'addSmoothScrolling',
 	    value: function addSmoothScrolling() {
 	      this.headerLinks.smoothScroll();
+	      this.arrowUpLinks.smoothScroll();
 	    }
 	  }, {
 	    key: 'createHeaderWaypoint',
@@ -11260,8 +11263,10 @@
 	        handler: function handler(direction) {
 	          if (direction == "down") {
 	            that.siteHeader.addClass("site-header--dark");
+	            that.arrowUp.addClass("arrow-up--is-visible");
 	          } else {
 	            that.siteHeader.removeClass("site-header--dark");
+	            that.arrowUp.removeClass("arrow-up--is-visible");
 	          }
 	        }
 	      });

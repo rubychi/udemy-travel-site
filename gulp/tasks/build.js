@@ -1,4 +1,4 @@
-/* Q: if there is already a rule for ./[folder]/ then why do we bother to add another rule for pointing to the subfolders ./[folder]/** ? */
+/* Q: if there already exists a rule for ./[folder]/ then why do we bother to add another rule for pointing to the subfolders ./[folder]/** ? */
 
 var gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
