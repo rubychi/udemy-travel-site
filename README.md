@@ -86,7 +86,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 ### CSS Architecture
 
-* this project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
+* This project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS crystal clear
 
   * B: Block - an independent, reusable part of the design
   ```css
