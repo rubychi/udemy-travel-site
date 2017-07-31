@@ -72,14 +72,19 @@ Follow the instructions below to set up the environment and run this project on 
 * waypoints
 * lazysizes
 * picturefill
-* gulp
 * normalize.css
 * postcss
+
+### Utils
+
 * webpack
+* gulp
 
 ## Course Notes
 
-* CSS architecture:<br>this project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
+### CSS architecture
+
+* this project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
 
   * B: Block - an independent, reusable part of the design
   ```css
