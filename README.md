@@ -12,6 +12,8 @@ You can see a complete working example [here](https://rubychi.github.io/udemy-tr
 
 * Revealing elements on scroll
 
+* Icon sprite for faster page loads
+
 * Lazy loading images for faster page loads
 
 * Smooth scrolling to anchor links
@@ -82,7 +84,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 ## Course Notes
 
-### CSS architecture
+### CSS Architecture
 
 * this project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
 
