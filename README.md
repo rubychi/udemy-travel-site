@@ -58,7 +58,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 5. See it up and running on http://localhost:3000
 
-### Alternatively, build a production version of the website (all files will be put inside the folder docs)
+### To build a production version of the website (all files will be put inside the folder "docs")
 ```
 > gulp build
 ```
@@ -79,8 +79,26 @@ Follow the instructions below to set up the environment and run this project on 
 
 ## Course Notes
 
-* CSS architecture: this project follows B.E.M rules for creating class names and writing css selectors
+* CSS architecture:<br>this project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
 
   * B: Block - an independent, reusable part of the design
-  * E: Element - belongs to a block and cannot be used outside of the block it belongs to
-  * M: Modifier - can be used on a block or an element to indicate a change to the default state of an object
+  ```css
+  .large-hero {
+   positiion: relative;
+  }
+  ```
+  
+  * E: Element (__) - belongs to a block and cannot be used outside of the block it belongs to
+  ```css
+  .large-hero__title {
+   font-weight: 300;
+   color: #2f5572;
+   font-size: 4.8rem;
+  }
+  ```
+  
+  * M: Modifier (--) - can be used on a block or an element to indicate a change to the default state of an object
+  ```html
+  <a class="btn btn--orange btn--large" ... >
+  ```
+  
