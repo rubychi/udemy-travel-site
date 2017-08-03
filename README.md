@@ -8,8 +8,6 @@ You can see a complete working example [here](https://rubychi.github.io/udemy-tr
 
 ## Features
 
-* Desktop sticky header
-
 * Revealing elements on scroll
 
 * Icon sprite for faster page loads
@@ -17,8 +15,6 @@ You can see a complete working example [here](https://rubychi.github.io/udemy-tr
 * Lazy loading images for faster page loads
 
 * Smooth scrolling to anchor links
-
-* Hamburger menu animation
 
 * Responsive web design (RWD): mobile-first approach, responsive images
 
