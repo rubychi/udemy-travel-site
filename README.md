@@ -1,4 +1,6 @@
 # Travel Site
+[![Known Vulnerabilities](https://snyk.io/test/github/rubychi/udemy-travel-site/badge.svg)](https://snyk.io/test/github/rubychi/udemy-travel-site)
+[![NSP Status](https://nodesecurity.io/orgs/rubychi/projects/2f9be599-b331-4a2b-9314-ac3d479138f7/badge)](https://nodesecurity.io/orgs/rubychi/projects/2f9be599-b331-4a2b-9314-ac3d479138f7)
 
 A hands-on project from [Udemy: Git a Web Developer Job: Mastering The Modern Workflow](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/learn/v4)
 
