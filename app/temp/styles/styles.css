@@ -1032,11 +1032,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-8eb89099.svg');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-8eb89099.png');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.png');
     }
 
 .icon--clear-view-escapes {
@@ -1138,7 +1138,6 @@ Instead edit gulp/templates/sprite */
   position: absolute;
   width: 100%;
   z-index: 2;
-  -webkit-transition: background-color .3s ease-out;
   transition: background-color .3s ease-out;
 }
 
@@ -1173,7 +1172,6 @@ Instead edit gulp/templates/sprite */
           transform: translateX(-50%) scale(.8);/* By default, scale considers the element's perfect center to be the origin of transform so it has to be re-adjusted to meet the need */
   -webkit-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1236,7 +1234,6 @@ Instead edit gulp/templates/sprite */
   background-color: white;/* transform-origin: left top */
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1260,7 +1257,6 @@ Instead edit gulp/templates/sprite */
   width: 20px;
   height: 3px;
   background-color: white;
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   -webkit-transform-origin: 0 50%;
           transform-origin: 0 50%;
@@ -1278,7 +1274,6 @@ Instead edit gulp/templates/sprite */
   background-color: white;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1304,7 +1299,6 @@ Instead edit gulp/templates/sprite */
   opacity: 0;/* Nice little zoom out faded effect */
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;/* Avoid being accidentally clicked on */
   position: relative;
   z-index: -10;
@@ -1412,7 +1406,6 @@ Instead edit gulp/templates/sprite */
 
 .reveal-item {
   opacity: 0;
-  -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
   /* Add a zoom out effect */
   -webkit-transform: scale(1.15);
@@ -1439,7 +1432,6 @@ Instead edit gulp/templates/sprite */
   visibility: hidden;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
 
@@ -1520,7 +1512,6 @@ Instead edit gulp/templates/sprite */
   opacity: 0;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   cursor: pointer;
 }
