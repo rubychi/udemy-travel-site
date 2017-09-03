@@ -58,7 +58,9 @@ Follow the instructions below to set up the environment and run this project on 
 
 5. See it up and running on http://localhost:3000
 
-### To build a production version of the website (all files will be put inside the folder "docs")
+### Build
+
+All files will be put inside the folder "docs"
 ```
 > gulp build
 ```
