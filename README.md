@@ -60,7 +60,7 @@ Follow the instructions below to set up the environment and run this project on 
 
 ### Build
 
-All files will be put inside the folder "docs"
+1. All files will be put inside the folder "docs"
 ```
 > gulp build
 ```
