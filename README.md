@@ -87,7 +87,7 @@ Run the following command (all files will be put inside the folder "docs")
 
 ### CSS Architecture
 
-* This project follows B.E.M rules to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
+* This project follows [B.E.M rules](http://getbem.com/) to limit cascade and create single-responsibility blocks for making the relationship between HTML and CSS clear
 
   * B: Block - an independent, reusable part of the design
   ```css
