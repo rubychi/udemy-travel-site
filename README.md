@@ -5,8 +5,6 @@ A hands-on project from [Udemy: Git a Web Developer Job: Mastering The Modern Wo
 
 ## [Live Demo](https://rubychi.github.io/udemy-travel-site/)
 
-You can see a complete working example [here](https://rubychi.github.io/udemy-travel-site/)
-
 ## Features
 
 * Revealing elements on scroll
