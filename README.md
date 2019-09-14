@@ -1,7 +1,7 @@
 # Travel Site
 [![Known Vulnerabilities](https://snyk.io/test/github/rubychi/udemy-travel-site/badge.svg)](https://snyk.io/test/github/rubychi/udemy-travel-site)
 
-Hands-on project from [Udemy: Git a Web Developer Job: Mastering The Modern Workflow](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/learn/v4)
+A hands-on project from [Udemy: Git a Web Developer Job: Mastering The Modern Workflow](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/learn/v4)
 
 ## [Live Demo](https://rubychi.github.io/udemy-travel-site/)
 
